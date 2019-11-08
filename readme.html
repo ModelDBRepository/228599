@@ -1,0 +1,22 @@
+<html>
+<p>NEURON files from the paper:
+</p>
+<p>"Conditioning by Subthreshold Synaptic Input Changes the Intrinsic Firing Pattern of CA3 Hippocampal Neurons"
+</p>
+<p>Saray Soldado-Magraner, Federico Brandalise, Suraj Honnuraiah, Michael Pfeiffer, Marie Moulinier, Urs Gerber, Rodney Douglas. J Neurophysiology, 2019. 
+</p>
+<p/>This code was contributed by S Soldado-Magraner.
+<p>This model was used to reproduce the experimental firing patterns of neurons in this study, and to obtain conductance candidates for the firing pattern transitions observed.
+</p>
+<p>The values of maximal conductances used to reproduce the experimental firing patterns of Figure 5A (the model traces are shown in 5D) are specified on the .txt file present in this folder. 
+</p>
+<p>Note that in this later case we modified the spiking conductances in order to reproduce more faithfully every particular experimental trace. For the generation of the model database (Figure 5C), the spiking conductances were fixed and only the rest of conductances were varied (for the exact ranges see the supplementary material of the paper). This was enough to get an aproximate fit of the experimental trace that could give us a sense of the possible conductances involved in the transitions. 
+</p>
+<p/>Sample usage: after installing NEURON (available for free from <a href="http://neuron.yale.edu">http://neuron.yale.edu</a>) you can run the simulation with a command like:<br/>
+python3 single_compartment_SoldadoMagranerEtAl.py
+<p/>After a few seconds the following image will be generated:<p/>
+<img src="./screenshot.png" alt="screenshot" width="600">
+<p/>Note that a sample_requirements.txt file is provided that shows versions of python modules that the code was verified to run in.  However, the code would likely work in versions of the modules that are near these version numbers.
+<p>Questions regarding the model should be directed to Saray Soldado-Magraner:
+ssaray at ini.uzh.ch</p>
+</html>

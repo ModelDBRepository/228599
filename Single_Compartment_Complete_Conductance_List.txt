@@ -1,0 +1,74 @@
+
+****** Intrinsic Burst *******
+
+gna=0.04
+gkdr=0.01
+gka=0.07
+gcaT=0.001
+gcaN=0.001
+gcaL=0.001
+gcaK=0.0001
+gkm=0.0006
+gkd=0.00045
+gkd_slow=0
+Ic=1 (Injected current)
+
+
+****** Adapting *******
+
+gna=0.04
+gkdr=0.01
+gka=0.04
+gcaT=0
+gcaN=0
+gcaL=0
+gcaK=0
+gkm=0.00052
+gkd=0.00025
+gkd_slow=0
+Ic=0.62
+
+
+****** Accelerating *******
+
+gna=0.04
+gkdr=0.01
+gka=0.04
+gcaT=0.0003
+gcaN=0.0003
+gcaL=0.0003
+gcaK=0.0005
+gkm=0
+gkd=0
+gkd_slow=0.0008
+Ic=1.95
+
+
+****** Non-Adapting *******
+
+gna=0.04
+gkdr=0.01
+gka=0.12
+gcaT=0
+gcaN=0
+gcaL=0
+gcaK=0
+gkm=0.000003
+gkd=0
+gkd_slow=0
+Ic=0.53
+
+
+****** Delayed *******
+
+gna=0.04
+gkdr=0.02
+gka=0.08
+gcaT=0.0001
+gcaN=0.0001
+gcaL=0.0001
+gcaK=0.0006
+gkm=0.000003
+gkd=0.00035
+gkd_slow=0
+Ic=0.55
